@@ -4,6 +4,8 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+import headerImg from "../assets/img/header-img.svg";
+
 export const Contact = () => {
   const formInitialDetails = {
     firstName: '',
@@ -48,11 +50,18 @@ export const Contact = () => {
       <Container>
         <Row className="align-items-center">
           <Col size={12} md={6}>
-            <TrackVisibility>
+            {/* <TrackVisibility>
               {({ isVisible }) =>
                 <img className={isVisible ? "animate__animated animate__zoomIn" : ""} src={contactImg} alt="Contact Us"/>
               }
-            </TrackVisibility>
+            </TrackVisibility> */}
+            {/* <h3>My Contact Details</h3> */}
+            <TrackVisibility>
+                {({ isVisible }) =>
+                    <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                    <img src={headerImg} style={{ width: '500px', height: '500px' }} alt="Header Img"/>
+                    </div>}
+                </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
             <TrackVisibility>
