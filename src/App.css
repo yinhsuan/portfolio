@@ -89,21 +89,24 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background-color: #28809f;
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  /* background-color: #dfac29; */
+  background-color: #28809f;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff !important;
+  color: #ffffff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  font-weight: bold;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -143,12 +146,17 @@ span.navbar-text {
     transform: scale(1);
 }
 .social-icon a img {
+  filter: brightness(0) invert(100%);
+
 	width: 40%;
 	z-index: 1;
 	transition: 0.3s ease-in-out;
 }
 .social-icon a:hover img {
-	filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%);
+  filter: grayscale(0);
+	/* filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%); */
+  /* filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(346deg) brightness(95%) contrast(86%); */
+  fill: #28809f;
 }
 .navbar-text button {
   font-weight: 700;
@@ -242,36 +250,48 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
-  padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 10px 20px;
+  /* background: linear-gradient(90.21deg, rgba(0, 0, 0, 1) -5.91%, rgba(75, 74, 82, 0.5) 111.58%); */
+  background: rgba(40,128,159,255);
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+  /* border-radius: 10px; */
   font-size: 20px;
   margin-bottom: 16px;
+  margin-left: 30px;
   display: inline-block;
 }
 .banner h1 {
+  color: #000000;
   font-size: 65px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
   margin-bottom: 20px;
+  margin-left: 30px;
   display: block;
+  font-weight: bold;
 }
 .banner p {
-  color: #B8B8B8;
+  /* color: #B8B8B8; */
+  color: #000000;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 30px;
 }
 .banner button {
-  color: #fff;
-  font-weight: 700;
+  color: #28809f;
+  /* font-weight: 1000; */
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
+  font-weight: bold;
+  margin-left: 30px;
 }
 .banner button svg {
   font-size: 25px;
@@ -297,7 +317,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     }
 }
 .txt-rotate > .wrap {
-  border-right: 0.08em solid #666;
+  border-right: 0.08em solid rgb(64, 62, 62)
 }
 
 /************ Skills Css ************/
