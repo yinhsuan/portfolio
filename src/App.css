@@ -315,6 +315,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   animation: updown 3s linear infinite;
+  width: 120%;
 }
 @keyframes updown {
     0% {
@@ -374,6 +375,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ About Css ************/
 .about {
   padding: 80px 0;
+  /* padding: 100px 0 100px 0; */
   position: relative;
   /* background-image: url('./assets/img/banner-bg.png'); */
   overflow-x: hidden;
@@ -396,7 +398,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 85%;
   font-weight: bold;
 }
-
+.about img {
+  width: 130%;
+}
 
 
 /************ Projects Css ************/
@@ -578,7 +582,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow-x: hidden;
 }
 .contact img {
-  width: 92%;
+  width: 100%;
 }
 .contact h2 {
   color: #000000;

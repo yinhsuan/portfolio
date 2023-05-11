@@ -17,7 +17,7 @@ export const About = () => {
                 <TrackVisibility>
                 {({ isVisible }) =>
                     <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                    <img src={headerImg} style={{ width: '500px', height: '500px' }} alt="Header Img"/>
+                      <img src={headerImg} alt="Header Img"/>
                     </div>}
                 </TrackVisibility>
             </Col>
