@@ -104,7 +104,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
   color: #ffffff !important;
   letter-spacing: 0.8px;
-  padding: 0 25px;
+  padding: 0 20px;
   font-size: 18px;
   opacity: 0.75;
   font-weight: bold;
@@ -298,7 +298,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
   line-height: 1;
 }
-
+.banner .nav2about {
+  color: #28809f;
+  /* font-weight: 1000; */
+  font-size: 20px;
+  margin-top: 60px;
+  letter-spacing: 0.8px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-left: 30px;
+}
 .banner button:hover svg {
   margin-left: 25px;
 }
