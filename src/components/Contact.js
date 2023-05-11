@@ -64,9 +64,9 @@ export const Contact = () => {
                 </TrackVisibility>
           </Col>
           <Col size={12} md={6}>
-            <TrackVisibility>
+            {/* <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> */}
                   <div style={{ width: "90%", marginLeft: 'auto', marginRight: 'auto' }}>
                   <h2>Contact Me</h2>
                   <form onSubmit={handleSubmit}>
@@ -96,8 +96,8 @@ export const Contact = () => {
                     </Row>
                   </form>
                   </div>
-              </div>}
-            </TrackVisibility>
+              {/* </div>}
+            </TrackVisibility> */}
           </Col>
         </Row>
       </Container>
