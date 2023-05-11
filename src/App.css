@@ -272,6 +272,18 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: bold;
   text-rendering: optimizeLegibility;
 }
+.banner h2 {
+  color: #000000;
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  line-height: 1;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  display: block;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
 .banner p {
   /* color: #B8B8B8; */
   color: #000000;
