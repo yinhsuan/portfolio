@@ -94,7 +94,7 @@ nav.navbar {
   overflow-x: hidden;
 }
 nav.navbar.scrolled {
-  padding: 0px 0;
+  padding: 5px 0;
   /* background-color: #dfac29; */
   background-color: #28809f;
 }
@@ -194,7 +194,7 @@ span.navbar-text {
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
 	outline: none;
-    box-shadow: none;
+  box-shadow: none;
 }
 nav.navbar .navbar-toggler-icon {
   width: 24px;
