@@ -262,12 +262,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner h1 {
   color: #000000;
-  font-size: 65px;
+  font-size: 65rem;
   font-weight: 700;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.8rem;
   line-height: 1;
-  margin-bottom: 20px;
-  margin-left: 30px;
+  margin-bottom: 20rem;
+  margin-left: 30rem;
   display: block;
   font-weight: bold;
 }
