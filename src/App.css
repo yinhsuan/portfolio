@@ -309,22 +309,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: bold;
   margin-left: 30px;
 }
+.banner a {
+  color: #28809f;
+}
+.banner a:hover {
+  color: #28809f; /* Change the color to your desired hover color */
+}
 .banner button svg {
   font-size: 25px;
   margin-left: 10px;
   transition: 0.3s ease-in-out;
   line-height: 1;
-}
-.banner .nav2about {
-  color: #28809f;
-  /* font-weight: 1000; */
-  font-size: 20px;
-  margin-top: 60px;
-  letter-spacing: 0.8px;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  margin-left: 30px;
 }
 .banner button:hover svg {
   margin-left: 25px;
