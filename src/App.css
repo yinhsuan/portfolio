@@ -31,7 +31,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #28809f !important;
+  /* background-color: #28809f !important; */
+  background-image: url('./assets/img/banner-bg.png');
   color: #fff !important;
   font-family: 'Centra', sans-serif !important;
 }
@@ -240,7 +241,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -374,7 +375,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .about {
   padding: 80px 0;
   position: relative;
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   overflow-x: hidden;
 }
 .about h2 {
@@ -403,7 +404,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   padding: 80px 0;
   position: relative;
   /* background-color: black; */
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   overflow-x: hidden;
 }
 .project h2 {
@@ -547,7 +548,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .blog {
   padding: 80px 0;
   position: relative;
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   overflow-x: hidden;
 }
 .blog h2 {
@@ -572,7 +573,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Contact Css ************/
 .contact {
   /* background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%); */
-  background-image: url('./assets/img/banner-bg.png');
+  /* background-image: url('./assets/img/banner-bg.png'); */
   padding: 100px 0 100px 0;
   overflow-x: hidden;
 }
