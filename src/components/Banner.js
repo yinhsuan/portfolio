@@ -5,6 +5,8 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+import { Navbar, Nav } from "react-bootstrap";
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -60,6 +62,13 @@ export const Banner = () => {
                   <h1> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <button onClick={() => console.log('connect')}>More about Me<ArrowRightCircle size={25} /></button>
+                  {/* <a href="#about"><button onClick={() => console.log('connect')}>More about Me<ArrowRightCircle size={25} /></button></a> */}
+                  {/* <span href="#home" classname="nav2about">More about Me<ArrowRightCircle size={25} /></span> */}
+                  {/* <Nav.Link href="#about" className="nav2about">More about Me<ArrowRightCircle size={25} /></Nav.Link> */}
+                  {/* <a href="#about" className="nav2about">
+                    <span>More about Me</span>
+                    <ArrowRightCircle size={25} />
+                  </a> */}
               </div>}
             </TrackVisibility>
           </Col>
