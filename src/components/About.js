@@ -27,7 +27,8 @@ export const About = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> */}
                     <div>
                         <h2>About</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p>In 2020, Yin-Hsuan completed a one-year internship as a Technical Assistant Intern at Microsoft Taiwan, where she developed webpages using ASP.NET MVC. Currently, she is focused on her research on the cutting-edge topic of 5G Optical Edge Data Centers.</p>
+                        <p>Yin-Hsuan has expertise in network engineering, web development, and programming languages such as C++, Python, and JavaScript. She excels in popular JavaScript libraries like React.js. Furthermore, her deep understanding of networking and software-defined networks positions her as a valuable asset in her field.</p>
                     </div>
                 {/* </div>}
                 </TrackVisibility> */}

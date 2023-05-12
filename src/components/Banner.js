@@ -60,7 +60,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm YIN HSUAN`}</h1>
                   <h2> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Yin-Hsuan Liao was born in Taipei in 1998 and currently resides in Hsinchu. She has an impressive background in computer science. Yin-Hsuan holds a dual degree in Mechanical Engineering and Computer Science from National Yang Ming Chiao Tung University (NYCU) and is currently pursuing a Master's degree in Network Engineering from the same institution.</p>
                   <button onClick={() => console.log('connect')}>More about Me<a href="#about"><ArrowRightCircle size={25} /></a></button>
               {/* </div>} */}
             {/* </TrackVisibility> */}
