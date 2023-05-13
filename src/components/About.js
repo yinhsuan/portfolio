@@ -1,5 +1,5 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/about-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 import 'animate.css';
