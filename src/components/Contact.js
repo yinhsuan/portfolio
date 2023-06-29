@@ -4,7 +4,7 @@ import contactImg from "../assets/img/contact-img.svg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/contact-img.png";
 
 export const Contact = () => {
   const formInitialDetails = {
