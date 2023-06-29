@@ -597,9 +597,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   /* background-image: url('./assets/img/banner-bg.png'); */
   padding: 100px 0 100px 0;
   overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact img {
   width: 70%;
+  display: block;
+  margin: 0 auto;
 }
 .contact h2 {
   color: #000000;
