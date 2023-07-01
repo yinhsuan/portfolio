@@ -56,7 +56,7 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <h2>Projects</h2>
-            <p>As a skilled Web Developer specializing in network technologies, I possess expertise in C, C++, JavaScript, Python, SDN, and more. My portfolio showcases my proficiency in web development, demonstrating my strong knowledge of networking principles. I have successfully completed projects in various domains, reflecting my ability to apply my skills to real-world scenarios</p>
+            <p>As a skilled Web Developer specializing in network technologies, Yin-Hsuan possesses expertise in C, C++, JavaScript, Python, SDN, and more. Her portfolio showcases her proficiency in web development, demonstrating a strong knowledge of networking principles. Yin-Hsuan has successfully completed projects in various domains, reflecting her ability to apply these skills to real-world scenarios.</p>
             {/* <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}> */}
