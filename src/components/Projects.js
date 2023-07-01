@@ -19,33 +19,33 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Personal Portfolio",
+      githubUrl: "https://github.com/yinhsuan/portfolio",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Parallelizing Reinforcement Learning",
+      githubUrl: "https://github.com/yinhsuan/parallel-RL",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Multi-Tenancy Application for Data Center",
+      githubUrl: "https://github.com/yinhsuan/Multi-Tenancy",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "VLAN-Based Segment Routing Application",
+      githubUrl: "https://github.com/yinhsuan/VLAN-Based-Segment-Routing-App",
       imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Proxy Server for HTTP and FTP",
+      githubUrl: "https://github.com/yinhsuan/Proxy-Server-for-HTTP-and-FTP",
       imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Multi-User Chat Room",
+      githubUrl: "https://github.com/yinhsuan/Multiple-User-Chat-Room",
       imgUrl: projImg6,
     },
   ];
