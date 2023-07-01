@@ -49,7 +49,7 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/yin-hsuan-liao-1a0708165/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="linkedin-icon" /></a>
                 <a href="https://www.facebook.com/profile.php?id=100003094233788" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="facebook-icon" /></a>
                 <a href="https://instagram.com/sandyliaooo?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="instagram-icon" /></a>
-                <a href="mailto:yinhsuan00@example.com" rel="noopener noreferrer"><img src={navIcon4} alt="email-icon" /></a>
+                <a href="mailto:yinhsuan00@gmail.com" rel="noopener noreferrer"><img src={navIcon4} alt="email-icon" /></a>
               </div>
               {/* <HashLink to='#connect'>
                 <button className="vvd"><span>Contact Me</span></button>
