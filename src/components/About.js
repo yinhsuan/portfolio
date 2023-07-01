@@ -27,8 +27,8 @@ export const About = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> */}
                     <div>
                         <h2>About</h2>
-                        <p>In 2020, Yin-Hsuan completed a one-year internship as a Technical Assistant Intern at Microsoft Taiwan, where she developed webpages using ASP.NET MVC. Currently, she is focused on her research on the cutting-edge topic of 5G Optical Edge Data Centers.</p>
-                        <p>Yin-Hsuan has expertise in network engineering, web development, and programming languages such as C++, Python, and JavaScript. She excels in popular JavaScript libraries like React.js. Furthermore, her deep understanding of networking and software-defined networks positions her as a valuable asset in her field.</p>
+                        <p>Yin-Hsuan is a highly skilled Web Developer with expertise in network specialization and over 3 years of industry experience. During her time at Microsoft Taiwan, she successfully developed a medical system for healthcare professionals, effectively resolving more than 40 billing issues within a year. Her specialization lies in Software-Defined Network (SDN) and optical edge data center networking systems, where she has demonstrated exceptional proficiency.</p>
+                        <p>In 2023, Yin-Hsuan showcased her passion for innovation by creating an open-source personal portfolio using React on GitHub. She is committed to delivering user-centric tools and continuously enhancing her skills to provide innovative solutions. With her strong background in web development and network technologies, Yin-Hsuan is a valuable asset capable of delivering exceptional results.</p>
                     </div>
                 {/* </div>}
                 </TrackVisibility> */}
