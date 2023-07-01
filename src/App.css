@@ -505,16 +505,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   overflow: hidden;
   margin-bottom: 24px;
   transition: transform 0.2s ease-in-out;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .proj-imgbx img {
   width: 100%;
   height: auto;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);  */
 }
 
 .proj-imgbx:hover {
   transform: scale(103%);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adjust shadow on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adjust shadow on hover */
 }
 
 /* .proj-imgbx::before {
