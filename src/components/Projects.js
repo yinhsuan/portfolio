@@ -25,7 +25,7 @@ export const Projects = () => {
     },
     {
       title: "Parallelizing Reinforcement Learning",
-      githubUrl: "https://github.com/yinhsuan/parallel-RL",
+      githubUrl: "https://github.com/yinhsuan/Parallel_Reinforcement_Learning",
       imgUrl: projImg2,
     },
     {
