@@ -16,7 +16,7 @@ const App = () => {
       <NavBar />
       <Banner />
       <About />
-      {/* <Skills /> */}
+      <Skills />
       <Projects />
       {/* <Blog /> */}
       {/* <Contact /> */}
