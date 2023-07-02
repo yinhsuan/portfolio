@@ -33,10 +33,12 @@ export const Skills = () => {
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
+                    <div className="skill-bx wow zoomIn gd-carousel-wrapper">
                         <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+                        {/* <p>Listed below are Yin-Hsuan's skill domains: Web Development, Networking, and Activity Coordination. 
+                          <br></br>The following Projects section showcases a detailed skill set, highlighting expertise in crafting websites, designing networking algorithms, and coordinating activities.
+                          </p> */}
+                        <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider gd-carousel">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
                                 <h5>Web Development</h5>

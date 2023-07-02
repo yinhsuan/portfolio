@@ -364,18 +364,38 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #000000;
 	font-size: 45px;
 	font-weight: 700;
+  margin-bottom: 30px;
 }
 .skill p {
     color: #000000;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 70px 75px 70px;
 }
 .skill-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
+}
+.gd-carousel-wrapper {
+  position:relative;
+
+}
+.gd-carousel {
+  position:unset;
+
+  .react-multiple-carousel__arrow {
+      position:absolute;
+  }
+
+  .react-multiple-carousel__arrow--left {
+      left: calc(1% + 1px)
+  }
+
+  .react-multiple-carousel__arrow--right {
+      right: calc(1% + 1px)
+  }
 }
 .skill-slider .item img {
   width: 50%;
