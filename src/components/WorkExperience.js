@@ -13,7 +13,7 @@ const WorkExperience = () => {
         <h2>Work Experience</h2>
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work custom-rounded-edge "
+            className="vertical-timeline-element--work custom-rounded-edge"
             contentStyle={{ background: 'rgb(255, 245, 236)', color: 'black', padding: "40px"
                             // paddingTop: "40px", paddingBottom: "40px", paddingLeft: "40px", paddingRight: "40px" 
                           }}
@@ -22,8 +22,8 @@ const WorkExperience = () => {
             //   // boxShadow: '0 3px 0 rgba(0, 0, 0, 0.3)'
             // }}
             contentArrowStyle={{ display: 'none' }}
-
-            date="Jun 2022 - Today"
+            date={<span className="timeline-date">Jun 2022 - Today</span>}
+            // date="Jun 2022 - Today"
             iconStyle={{ background: 'rgb(220, 164, 155)', color: '#fff' }}
             icon={<WorkIcon />}
           >
@@ -46,8 +46,8 @@ const WorkExperience = () => {
             className="vertical-timeline-element--work custom-rounded-edge "
             contentStyle={{ background: 'rgb(255, 245, 236)', color: 'black', padding: "40px" }}
             contentArrowStyle={{ display: 'none' }}
-
-            date="Sep 2021 - Jun 2022"
+            date={<span className="timeline-date">Sep 2021 - Jun 2022</span>}
+            // date="Sep 2021 - Jun 2022"
             iconStyle={{ background: 'rgb(220, 164, 155)', color: '#fff' }}
             icon={<WorkIcon />}
           >
@@ -67,8 +67,8 @@ const WorkExperience = () => {
             className="vertical-timeline-element--work custom-rounded-edge "
             contentStyle={{ background: 'rgb(255, 245, 236)', color: 'black', padding: "40px" }}
             contentArrowStyle={{ display: 'none' }}
-
-            date="Sep 2021 - Jun 2022"
+            date={<span className="timeline-date">Jun 2020 - Jun 2021</span>}
+            // date="Sep 2021 - Jun 2022"
             iconStyle={{ background: 'rgb(220, 164, 155)', color: '#fff' }}
             icon={<WorkIcon />}
           >

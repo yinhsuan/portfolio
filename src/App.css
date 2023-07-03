@@ -835,6 +835,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 30px;
 }
 
+/* .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element-content p {
+  font-weight: 1000;
+} */
+
 
 .rounded-content,
 .vertical-timeline-element-subtitle,
@@ -847,6 +851,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
 } */
 
+.timeline-date {
+  font-weight: 1000; /* Modify this line with the desired font-weight value */
+}
 
 .work_experience {
   padding: 80px 0;
