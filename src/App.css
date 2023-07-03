@@ -345,7 +345,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  padding: 0 0 50px 0;
+  padding: 80px 0 80px 0;
+  /* padding: 80px, 0; */
   position: relative;
 }
 .skill h5 {
@@ -781,4 +782,83 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: #ffffff;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+
+/************ Work Experience Css ************/
+
+/* custom-horizontal-line::before {
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 2.5px;
+  background-color: rgb(33, 150, 243);
+}  */
+.custom-rounded-edge .vertical-timeline-element-content {
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+  /* margin-bottom: 30px; */
+}
+
+.custom-rounded-edge .rounded-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* .custom-rounded-edge::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 2px;
+  height: 100%;
+  background-color: #AD5545;
+} */
+
+
+.vertical-timeline.vertical-timeline--animate::before,
+.vertical-timeline.vertical-timeline--two-columns::before {
+  background-color: #AD5545;
+}
+.vertical-timeline-element-icon.bounce-in {
+  outline: 5px solid #AD5545;
+}
+
+.vertical-timeline-element-title {
+  color: #AD5545;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+.rounded-content,
+.vertical-timeline-element-subtitle,
+.rounded-content p {
+  color: black;
+}
+/* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); */
+
+/* .vertical-timeline-element-content-arrow {
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+} */
+
+.work_experience h2 {
+  color: #000000;
+	font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+  font-weight: bold;
+  /* margin-bottom: 30px; */
+  /* margin: 14px auto 30px auto; */
+}
+
+.work_experience {
+  padding: 80px 0;
+  position: relative;
+  overflow-x: hidden;
 }
