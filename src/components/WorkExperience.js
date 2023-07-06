@@ -29,7 +29,7 @@ const WorkExperience = () => {
           >
             <div className="rounded-content">
               <h3 className="vertical-timeline-element-title">Research Assistant</h3>
-              <h4 className="vertical-timeline-element-subtitle">GeNopsys Technologies, Taiwan</h4>
+              <h4 className="vertical-timeline-element-subtitle">GeNopsys, Taiwan</h4>
               <br></br>
               <ul>
                 <li>Developed a dashboard for an optical edge data center networking system, showcasing the capability of the traffic load balancing algorithm of OPTUNS across 4 dimensions : real-time system load, traffic distribution, resource utilization, and system capacity</li>
