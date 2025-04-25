@@ -11,7 +11,7 @@ const ResumeButton = () => {
   
   // Custom button style with hover state handled through CSS
   const buttonStyle = {
-    borderRadius: '30px', 
+    borderRadius: '10px', 
     padding: '10px 20px',
     borderColor: '#28809f', 
     borderWidth: '2px',

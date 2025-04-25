@@ -259,6 +259,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 16px;
   margin-left: 30px;
   display: inline-block;
+  border-radius: 10px;
 }
 .banner h1 {
   color: #000000;
@@ -355,7 +356,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill-bx {
   /* background: #e1e5e7; */
   background: #fff5ec;
-  border-radius: 64px;
+  border-radius: 10px;
   text-align: center;
   padding: 60px 50px;
   /* margin-top: -60px; */
@@ -528,7 +529,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx {
   position: relative;
-  border-radius: 30px;
+  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 24px;
   transition: transform 0.2s ease-in-out;
@@ -830,7 +831,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-color: rgb(33, 150, 243);
 }  */
 .custom-rounded-edge .vertical-timeline-element-content {
-  border-radius: 15px;
+  border-radius: 10px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
   /* margin-bottom: 30px; */
 }
