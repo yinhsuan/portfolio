@@ -10,6 +10,7 @@ import { Blog } from "./components/Blog";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 import WorkExperience from "./components/WorkExperience";
+import ResumeButton from './components/ResumeButton';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <WorkExperience />
       <Skills />
       <Projects />
+      <ResumeButton onClick={() => window.open('/portfolio/resume.pdf', '_blank')} />
       {/* <Blog /> */}
       {/* <Contact /> */}
       <Footer />
