@@ -22,7 +22,7 @@ export const Footer = () => {
               <a href="https://instagram.com/sandyliaooo?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="instagram-icon" /></a>
               <a href="mailto:yinhsuan00@gmail.com" rel="noopener noreferrer"><img src={navIcon4} alt="email-icon" /></a>
             </div>
-            <p>Copyright 2023. All Rights Reserved</p>
+            <p>Copyright 2025. All Rights Reserved</p>
           {/* </Col> */}
         {/* </Row> */}
       </Container>

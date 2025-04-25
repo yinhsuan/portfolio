@@ -27,8 +27,8 @@ export const About = () => {
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}> */}
                     <div>
                         <h2>About</h2>
-                        <p>Yin-Hsuan is a highly skilled Web Developer with expertise in network specialization and 3 years of industry experience. During her time at Microsoft Taiwan, she successfully developed a medical system for healthcare professionals, effectively resolving more than 40 billing issues within a year. Her specialization lies in Software-Defined Network (SDN) and optical edge data center networking systems, where she has demonstrated exceptional proficiency.</p>
-                        <p>In 2023, Yin-Hsuan showcased her passion for innovation by creating an open-source personal portfolio using React on GitHub. She is committed to delivering user-centric tools and continuously enhancing her skills to provide innovative solutions. With her strong background in web development and network technologies, Yin-Hsuan is a valuable asset capable of delivering exceptional results.</p>
+                        <p>Yin-Hsuan Liao is a skilled web developer with 3 years of industry experience and a strong background in networking technologies. She began her professional journey at Microsoft Taiwan, where she contributed to the development of a healthcare system for medical professionals. She later joined MediaTek as a software engineer, focusing on system-level low-power optimization.</p>
+                        <p>Her expertise spans Software-Defined Networking (SDN), optical edge data center technologies, and modern web development. In 2023, she showcased her passion for innovation by building an open-source personal portfolio using ReactJS, published on GitHub. Yin-Hsuan is driven by a commitment to creating user-centric, impactful tools and is constantly exploring new technologies to expand her capabilities.</p>
                     </div>
                 {/* </div>}
                 </TrackVisibility> */}

@@ -60,7 +60,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm YIN-HSUAN`}</h1>
                   <h2> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h2>
-                  <p>Yin-Hsuan Liao was born in Taipei in 1998 and currently resides in Hsinchu. She has an impressive background in computer science. Yin-Hsuan holds a dual degree in Mechanical Engineering and Computer Science from National Yang Ming Chiao Tung University (NYCU) and is currently pursuing a Master's degree in Network Engineering from the same institution.</p>
+                  <p>Yin-Hsuan Liao was born in Taipei in 1998 and is currently based in the city. She holds a dual Bachelor’s degree in Mechanical Engineering and Computer Science from National Yang Ming Chiao Tung University (NYCU), where she also completed her Master’s degree in Institute of Network Engineering in 2023. She expanded her academic experience through an exchange program at the University of Mannheim in Germany, studying at the School of Business Informatics and Mathematics. With a strong foundation in both engineering and computer science, Yin-Hsuan brings a multidisciplinary perspective to her work in technology and innovation.</p>
                   <button onClick={() => console.log('connect')}>More about Me<a href="#about"><ArrowRightCircle size={25} /></a></button>
               {/* </div>} */}
             {/* </TrackVisibility> */}

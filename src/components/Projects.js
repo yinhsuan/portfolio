@@ -24,23 +24,23 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Parallelizing Reinforcement Learning",
-      githubUrl: "https://github.com/yinhsuan/Parallel_Reinforcement_Learning",
+      title: "Software Backplane Design for the Real-time Monitoring and Visualization System in Optical Edge Data Center",
+      githubUrl: "https://thesis.lib.nycu.edu.tw/items/d207dd60-66e1-43b2-89e2-0ba25faf4cbc",
       imgUrl: projImg2,
     },
     {
-      title: "Multi-Tenancy Application for Data Center",
-      githubUrl: "https://github.com/yinhsuan/Multi-Tenancy",
+      title: "High-Performance Reinforcement Learning Optimization",
+      githubUrl: "https://github.com/yinhsuan/Parallel_Reinforcement_Learning",
       imgUrl: projImg3,
     },
     {
-      title: "VLAN-Based Segment Routing Application",
-      githubUrl: "https://github.com/yinhsuan/VLAN-Based-Segment-Routing-App",
+      title: "SDN-Based Network with VLAN Isolation for Multi-Tenancy",
+      githubUrl: "https://github.com/yinhsuan/Multi-Tenancy",
       imgUrl: projImg4,
     },
     {
-      title: "Proxy Server for HTTP and FTP",
-      githubUrl: "https://github.com/yinhsuan/Proxy-Server-for-HTTP-and-FTP",
+      title: "https://github.com/yinhsuan/Multi-Tenancy",
+      githubUrl: "https://github.com/yinhsuan/VLAN-Based-Segment-Routing-App",
       imgUrl: projImg5,
     },
     {
@@ -56,7 +56,7 @@ export const Projects = () => {
         <Row>
           <Col size={12}>
             <h2>Projects</h2>
-            <p>As a skilled Web Developer specializing in network technologies, Yin-Hsuan possesses expertise in C, C++, JavaScript, Python, SDN, and more. Her portfolio showcases her proficiency in web development, demonstrating a strong knowledge of networking principles. Yin-Hsuan has successfully completed projects in various domains, reflecting her ability to apply these skills to real-world scenarios.</p>
+            <p>Yin-Hsuan is a web developer with a strong background in network technologies, skilled in C, C++, JavaScript, Python, and SDN. Her portfolio showcases a wide range of projects—from real-time monitoring systems for optical edge data centers to interactive web apps and SDN-based network solutions. With hands-on experience in ReactJS, Node.js, Mininet, ONOS, and RYU, she builds practical, scalable, and user-focused solutions across both frontend and backend development.</p>
             {/* <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}> */}
